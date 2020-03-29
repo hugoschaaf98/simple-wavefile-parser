@@ -1,10 +1,10 @@
-#Simple Wavefile Parser
+# Simple Wavefile Parser
 
 Everything you need is 'wavefile.h' which contains the parser function.
 
-##How To use the example
+## How To use the example
 
-######Configure :
+###### Configure :
 Inside ```parse_wavefile.c``` you can uncomment the line ```#define USE_EXAMPLE_HEADER 1```.
 ```
 channels : 1
@@ -14,10 +14,10 @@ bytesPerSample : 1
 bitsPerSample : 8
 dataSize : 19980
 ```
-######Build :
+###### Build :
 simply
 ```$ make```
-######Run :
+###### Run :
 if you've uncommented the line ```#define USE_EXAMPLE_HEADER 1``` simply
 ```$ ./parse_wavefile```
 
