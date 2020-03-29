@@ -7,12 +7,13 @@ Everything you need is 'wavefile.h' which contains the parser function.
 ###### Configure :
 Inside ```parse_wavefile.c``` you can uncomment the line ```#define USE_EXAMPLE_HEADER 1```.
 ```
+$ ./parse_wavefile
 channels : 1
-sampleRate : ac44
-byteRate : ac44
+sampleRate : 44100
+byteRate : 44100
 bytesPerSample : 1
 bitsPerSample : 8
-dataSize : 19980
+dataSize : 104832
 ```
 ###### Build :
 simply
