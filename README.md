@@ -5,7 +5,7 @@ Everything you need is 'wavefile.h' which contains the parser function.
 ## How To use the example
 
 ###### Configure :
-Inside ```parse_wavefile.c``` you can uncomment the line ```#define USE_EXAMPLE_HEADER 1```.
+Inside ```example_parse_wavefile.c``` you can uncomment the line ```#define USE_EXAMPLE_HEADER 1```.
 ```
 $ ./parse_wavefile
 channels : 1
@@ -20,7 +20,7 @@ simply
 ```$ make```
 ###### Run :
 if you've uncommented the line ```#define USE_EXAMPLE_HEADER 1``` simply
-```$ ./parse_wavefile```
+```$ ./example_parse_wavefile```
 
 Otherwise you can specify filenames
-```$ ./parse_wavefile myWaveFile0.wav myWaveFile1.wav myWaveFile2.wav```
+```$ ./example_parse_wavefile myWaveFile0.wav myWaveFile1.wav myWaveFile2.wav```
