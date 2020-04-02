@@ -18,7 +18,7 @@ emcc=0
 # if LIB_TARGET is provided, this library will be built (with its
 # platform-specific name), otherwise ${EXE_PREFIX}* programs will be built
 LIB_TARGET=
-EXE_PREFIX=parse_wavefile
+EXE_PREFIX=example_parse_wavefile
 
 #~~~~ detect operating system ~~~~
 ifneq (${OS},Windows_NT)
