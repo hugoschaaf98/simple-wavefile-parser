@@ -1,6 +1,6 @@
 # Simple Wavefile Parser
 Ultra lightweight simple .wav LPCM decoder originaly developed for AVR 8bits targets.
-Everything you need is 'wavefile.h' which contains the parser function.
+Everything you need is ```wavefile.h``` which contains the parser function.
 
 ## How To use the example
 
